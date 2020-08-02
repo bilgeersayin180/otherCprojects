@@ -4,7 +4,7 @@
 int run = 1;
 
 int isPrime(int *number){
-    int primeList[4] = {2, 3, 5, 7};
+    int primeList[11] = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31};
     int limit = ((sizeof(primeList) / sizeof(int)) - 1);
     for (int j = 0; j <= limit; j++){
         if (*number == primeList[j]){
